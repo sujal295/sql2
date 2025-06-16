@@ -1,5 +1,5 @@
-# sql2 cop & paste for the dataset
-'''CREATE TABLE Orders (
+# sql2 copy & paste for the dataset
+CREATE TABLE Orders (
     id INT PRIMARY KEY IDENTITY(1,1),
     created_at DATETIME NOT NULL DEFAULT GETDATE(),
     OrderAmount DECIMAL(10, 2) NOT NULL,
@@ -41,4 +41,4 @@ VALUES
 ('2025-04-06 10:05:00', 450.00, 'ORD1030'),
 ('2025-04-07 06:30:00', 320.99, 'ORD1031'),
 ('2025-04-07 07:20:00', 219.49, 'ORD1032'),
-('2025-04-07 08:15:00', 110.00, 'ORD1033')'''
+('2025-04-07 08:15:00', 110.00, 'ORD1033')
